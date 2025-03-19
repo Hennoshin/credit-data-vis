@@ -1,37 +1,33 @@
-# Judul Project
+# Milestone 1 Irfan Hilmi Analisis Statistik Kecenderungan Ketepatan Pembayaran Kartu Kredit
 
 ## Repository Outline
-`Bagian ini menjelaskan secara singkat konten/isi dari file yang dipush ke repository`
 
 Contoh:
 ```
 1. README.md - Penjelasan gambaran umum project
-2. notebook.ipynb - Notebook yang berisi pengolahan data dengan python
-dst.
+2. P0M1_Irfan_Hilmi.ipynb - Notebook yang berisi pengolahan data dengan python
+3. P0M1_Irfan_Hilmi_dataset_1.csv - Dataset CSV berisi data latar belakang nasabah
+4. P0M1_Irfan_Hilmi_dataset_2.csv - Dataset CSV berisi status pembayaran kartu kredit
 ```
 
 ## Problem Background
-`Bagian ini menjelaskan masalah yang diselesaikan pada project ini beserta latar belakang masalahnya secara singkat`
+Project ini dilakukan untuk melakukan visualisasi dan analisis statistik terhadap latar belakang nasabah bank dan kecenderungan ketepatan mereka dalam membayar tagihan kartu kredit
 
 ## Project Output
-`Bagian ini menjelaskan secara singkat output projectnya apa, misal model machine learning, dasboard, dsb.`
+Output dari project ini merupakan kesimpulan analisis melalui notebook dan juga dashboard Tableau
 
 ## Data
-`Bagian ini menjelaskan secara singkat mengenai data yang digunakan seperti sumber data, deskripsi singkat karakteristik data seperti jumlah kolom, baris data, missing values, dsb`
+Dataset yang digunakan merupakan dataset mengenai ketepatan pembayaran kartu kredit nasabah dan juga data latar belakang masalah. Dataset ini terdiri dari dua file, yaitu application_record dan credit_record yang masing masing berisi data latar belakang dan status pembayaran kartu kredit.
+
+Sumber dataset: https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
 
 ## Method
-`Bagian ini menjelaskan metode yang digunakan pada project, misal project ini mengenai machine learning sehingga metode yang dipakai adalah model supervised learning dengan model KNN`
+Metode yang digunakan adalah visualisasi data dan juga analisis statistik deskriptif dan juga inferensial berupa korelasi Kendall
 
 ## Stacks
-`Bagian ini menjelaskan stacks yang digunakan seperti bahasa pemrograman, tools, dan library Python yang digunakan`
+Untuk data visualisasi, digunakan dashboard Tableau dan juga library Matplotlib python. Pemrosesan data dilakukan dengan library Pandas python. Analisis statistik dilakukan dengan library Scipy
 
 ## Reference
-`Bagian ini berisi link pendukung seperti referensi, dashboard, atau deployment`
+Dashboard link https://public.tableau.com/app/profile/muhammad.irfan.hilmi3140/viz/P0M1_Irfan_Hilmi/DataVisualizationDashboard?publish=yes
 
 ---
-
-**Referensi tambahan:**
-- [Basic Writing and Syntax on Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Contoh readme](https://github.com/fahmimnalfrzki/Swift-XRT-Automation)
-- [Another example](https://github.com/sanggusti/final_bangkit) (**Must read**)
-- [Additional reference](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
